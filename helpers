@@ -1,0 +1,8 @@
+# on serial console
+fatload mmc 0:1 0x80000000 linux.itb
+setenv bootargs "bootargs=console=ttymxc0,115200,115200 root=/dev/ram0 rw"
+bootm 0x80000000
+
+fatload mmc 0:1 0x80000000 linux.itb; setenv bootargs "bootargs=console=ttymxc0,115200,115200 root=/dev/ram0 rw"; bootm 0x80000000;
+
+sudo ./uuu/linux64/uuu -b emmc_img imx8mq/pico-imx8mq/pico-imx8mq-flash.bin ../staging/disk.img

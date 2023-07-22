@@ -1,0 +1,1 @@
+savedcmd_/home/stef/Code/arm-dev/simple_char_module/mychardev.mod := printf '%s\n'   mychardev.o | awk '!x[$$0]++ { print("/home/stef/Code/arm-dev/simple_char_module/"$$0) }' > /home/stef/Code/arm-dev/simple_char_module/mychardev.mod
