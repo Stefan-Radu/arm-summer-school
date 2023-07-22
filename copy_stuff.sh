@@ -1,7 +1,10 @@
 #! /usr/bin/env bash
 
 # bl31.bin
-cp ./imx-atf/build/imx8mq/release/bl31.bin ./imx-mkimage/iMX8M/
+# cp ./imx-atf/build/imx8mq/release/bl31.bin ./imx-mkimage/iMX8M/
+# bl31.bin with optee
+cp imx-atf/build/imx8mq/release/bl31.bin ./imx-mkimage/iMX8M/
+
 # lpddr4_pmu_train_1d_dmem.bin 
 cp ./firmware-imx-8.15/firmware/ddr/synopsys/lpddr4_pmu_train_1d_dmem.bin ./imx-mkimage/iMX8M/
 # lpddr4_pmu_train_1d_imem.bin 
@@ -18,5 +21,8 @@ cp ./u-boot-tn-imx/spl/u-boot-spl.bin ./imx-mkimage/iMX8M/
 cp ./u-boot-tn-imx/u-boot-nodtb.bin ./imx-mkimage/iMX8M/
 # imx8mq-pico-pi.dtb
 cp ./u-boot-tn-imx/arch/arm/dts/imx8mq-pico-pi.dtb ./imx-mkimage/iMX8M/
+# optee
+cp ./optee_os/build/core/tee-raw.bin ./imx-mkimage/iMX8M/tee.bin
+
 # mkimage
 cp ./u-boot-tn-imx/tools/mkimage ./imx-mkimage/iMX8M/mkimage_uboot
