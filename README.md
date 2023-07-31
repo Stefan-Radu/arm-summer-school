@@ -4,7 +4,7 @@
 
 ## Kernel dev resources
 
-[1](https://embetronicx.com/tutorials/linux/device-drivers/)
-[2](https://ocw.cs.pub.ro/courses/isc/labs/kernel)
-[3](https://lwn.net/)
-[4](https://www.phoronix.com/Phoronix)
+[device drivers](https://embetronicx.com/tutorials/linux/device-drivers/)  
+[kernel lab](https://ocw.cs.pub.ro/courses/isc/labs/kernel)  
+[lwn.net](https://lwn.net/)  
+[phoronix - hardware](https://www.phoronix.com/Phoronix)  
