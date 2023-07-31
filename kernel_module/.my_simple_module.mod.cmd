@@ -1,0 +1,1 @@
+savedcmd_/home/stef/Code/arm-dev/kernel_module/my_simple_module.mod := printf '%s\n'   my_simple_module.o | awk '!x[$$0]++ { print("/home/stef/Code/arm-dev/kernel_module/"$$0) }' > /home/stef/Code/arm-dev/kernel_module/my_simple_module.mod
